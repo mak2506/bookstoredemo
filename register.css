@@ -1,0 +1,82 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-image:url("books/bg3.jpg");
+	background-size:cover;
+}
+
+#wrapper
+{
+	width:980px;
+	border:2pt solid white;
+	margin:auto;
+	margin-top:30px;
+	border-radius:20px;
+}
+	
+#heading
+{
+	width:960px;
+	
+	margin:10px;
+	background:radial-gradient(#6960EC,white);
+	font-size:60;
+	font-family:forte;
+	text-align:center;
+	text-shadow:2px 3px #E5E4E2;
+	border-radius:10px;
+}
+
+#register
+{
+	width:960px;
+	border:1pt solid white;
+	border-radius:10px;
+	margin:10px;
+	text-align:center;
+	font-family:castellar;
+	font-size:35;
+	text-shadow:2px 3px 5px #1F45FC;
+}
+
+#tbl
+{
+	width:600px;
+	
+	margin:20px;
+	background:radial-gradient(white,#3BB9FF,#0000A0);
+	border-radius:15px;
+	margin-left:200px;
+	opacity:0.7;
+}
+
+#tbl table
+{
+	color:black;
+	width:180px;
+	padding:10px;
+	
+	margin-left:75px;
+	background:white;
+	line-height:60px;
+	border-radius:10px;
+	box-shadow:4px 5px black;
+	
+}
+#tbl table input
+{
+	
+	
+}
+
+#tbl input
+{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+}

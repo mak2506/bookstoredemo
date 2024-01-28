@@ -1,0 +1,204 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-image:url("books/bg5.jpg");
+}
+
+#wrapper
+{
+	width:980px;	
+	border:2pt solid #D462FF;
+	margin:auto;
+}
+
+#header
+{
+	width:970px;
+	border:1pt solid #C38EC7;
+	margin:3px;
+	color:#2B65EC;
+	line-height:50px;
+	text-align:center;
+	background:linear-gradient(#FBBBB9,#00FFFF);
+}
+#header a
+{
+	color:black;
+	text-decoration:none;
+	text-align:right;
+}
+
+#home
+{
+	width:970px;
+	border:1pt solid #C38EC7;
+	margin:3px;
+	
+}
+#menu
+{
+	width:970px;
+	border:1pt solid #C38EC7;
+	background:linear-gradient(90deg,rgba(225,225,225,0),#57FEFF,#50EBEC,rgba(225,225,225,0));
+}
+#menu ul
+{
+	list-style:none;
+}
+#menu ul li
+{
+	display:inline-block;
+	height:30px;
+	width:150px;
+	line-height:30px;
+	margin:10px;
+	text-align:center;
+}
+#menu ul li a
+{
+	color:#7F462C;
+	text-decoration:none;
+	display:block;
+}
+
+
+#nav1
+{
+	width:150px;
+	border:1pt solid #C38EC7;
+	float:left;
+	margin:2px;
+}
+
+#nav1 ul
+{
+	list-style:none;
+}
+#nav1 ul li
+{
+	
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	
+}
+#nav1 ul li a
+{
+	text-decoration:none;
+	color:#9DC209;
+	
+}
+#nav1 ul li a:hover
+{
+	text-decoration:underline;
+	color:#59E817;
+}
+#nav1 a
+{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	
+}
+
+#nav2
+{
+	width:650px;
+	border:1pt solid #C38EC7;
+	float:left;
+	margin:2px;
+	
+}
+
+#nav3
+{
+	width:150px;
+	border:1pt solid #C38EC7;
+	float:right;
+	margin:2px;
+}
+#tbl
+{
+	height:40px;
+	line-height:40px;
+	margin:15px;
+	margin-left:45px;
+}
+#nav3 ul
+{
+	list-style:dotted;
+	margin-left:20px;
+}
+#nav3 ul li
+{
+	height:30px;
+	line-height:30px;
+}
+#nav3 ul li a
+{
+	text-decoration:none;
+}
+#nav3 ul li a:hover
+{
+	text-decoration:underline;
+	color:red;
+}
+
+#s
+{
+	text-align:center;
+	color:#800517;
+	line-height:40px;
+}
+#s1
+{
+	width:200px;
+	
+	float:left;
+	margin:5px;
+		
+}
+#s2
+{
+	width:200px;
+	
+	float:left;
+	margin:5px;
+	margin-left:10px;
+	padding-bottom:10px;
+}
+#s3
+{
+	width:200px;
+	
+	float:right;
+	margin:5px;
+}
+
+
+.img1
+{
+	width:180px;
+	padding-bottom:15px;
+	margin:7px;
+	
+}
+
+.p
+{
+	color:black;
+	text-align:center;
+	margin:2px;
+}
+.p a
+{
+	color:#1F45FC;
+}
+.p a:hover
+{
+	color:#7FFFD4;
+}

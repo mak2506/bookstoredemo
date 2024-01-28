@@ -1,0 +1,171 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body 
+{
+	background-image:url("books/bg8.jpg");
+	background-size:cover;
+}
+
+#wrapper
+{
+	width:980px;
+	border:2pt solid white;
+	margin:auto;
+}
+
+#hd
+{
+	width:975px;
+	border:1pt solid white;
+	margin:2px;
+	background:radial-gradient(white,#625D5D);
+	line-height:70px;
+	position:sticky;
+	top:0;
+}
+#box1
+{
+	width:750px;
+	
+	float:left;
+	margin:2px;
+	color:white;
+	font-size:30;
+	font-family:castellar;
+	text-shadow:3px 4px black;
+	padding-left:5px;
+}
+#box2
+{
+	width:200px;
+	
+	float:right;
+	margin:5px;
+	
+}
+#box2 a
+{
+	color:#7F462C;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:20;
+	padding-left:40px;
+}
+
+#main
+{
+	width:975px;
+	border:1pt solid white;
+	margin:2px;
+	background:radial-gradient(white,#FFF5EE);
+	opacity:0.4;
+}
+
+.p
+{
+	color:black;
+	font-size:30;
+	font-weight:bold;
+	padding:10px;
+	font-family:calibri;
+}
+#contact ul
+{
+	list-style:dotted;
+	margin-left:20px;
+}
+#contact ul li
+{
+	margin:10px;
+}
+#contact ul li:hover
+{
+	color:red;
+	font-weight:bold;
+}
+#contact ul li a
+{
+	color:#1589FF;
+	margin-left:700px;
+}
+
+#email ul
+{
+	list-style:dotted;
+	margin:20px;
+}
+#email ul li
+{
+	margin:10px;
+}
+#email ul li a
+{
+	color:#1589FF;
+}
+#email ul li a:hover
+{
+	font-weight:bold;
+}
+
+#website ul
+{
+	list-style:dotted;
+	margin:20px;
+}
+#website ul li
+{
+	margin:10px;
+}
+#website ul li a
+{
+	color:#1589FF;
+}
+#website ul li a:hover
+{
+	font-weight:bold;
+}
+
+#footer
+{
+	width:975px;
+	border:1pt solid white;
+	margin:2px;
+	background:radial-gradient(white,#625D5D);
+	
+}
+#footer a
+{
+	color:#1F45FC;
+	font-size:20;
+	margin-left:20px;
+	line-height:40px;
+	text-decoration:none;
+}
+#footer a:hover
+{
+	color:red;
+	text-decoration:underline;
+}
+#f
+{
+	width:975px;
+	border-top:2pt dotted black;
+	border-bottom:2pt dotted black;
+	
+}
+#f a
+{
+	color:black;
+	text-decoration:none;
+	margin-left:60px;
+	margin-right:60px;
+}
+#f a:hover
+{
+	color:white;
+	text-decoration:underline;
+	
+}

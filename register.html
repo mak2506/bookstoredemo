@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Registration</title>
+		<link rel="stylesheet" type="text/css" href="register.css"/>
+		<script type="text/javascript">
+			function validate()
+			{
+				var uname=document.getElementById('Uname').value;
+				var email=document.getElementById('Uemail').value;
+				var upswd=document.getElementById('Upswd').value;
+				var pswd=document.getElementById('pswd').value;
+				if(uname=="" && email=="" && upswd=="" && pswd=="")
+				{
+					alert("Cannot be blank!!!");
+					return false;
+				}
+				else if(uname=="")
+				{
+					alert("Username is blank!!");
+					return false;
+				}
+				else if(email=="")
+				{
+					alert("Please enter your email!!!");
+					return false;
+				}
+				else if(upswd=="")
+				{
+					alert("Please enter password!!!");
+					return false;
+				}
+				else if(pswd=="")
+				{
+					alert("Please again enter password!!");
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="heading">
+				<p>Registeration Page</p>
+			</div><!--end of heading-->
+			<div id="register">
+				<form id="frmRegister">
+				<b>Register</b>
+				<div id="tbl">
+					</br>
+					<table>
+						<tr>
+							<td>Username:</td>
+							<td><input type="text" id="Uname" name="usr"/></td>
+						</tr>
+						<tr>
+							<td>Email:</td>
+							<td><input type="text" id="Uemail" name="txtEmail"/></td>
+						</tr>
+						<tr>
+							<td>Password:</td>
+							<td><input type="password" id="Upswd" name="pswd"/></td>
+						</tr>
+						<tr>
+							<td>Password(again):</td>
+							<td><input type="password" id="pswd" name="pswd"/></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="checkbox"  name="agree" value="agree"/>&nbsp;&nbsp;&nbsp;&nbsp;I agree to the terms & conditions</td>
+						</tr>
+					</table>
+						<input type="button" name="btnSubmit" value="Register" onclick="return validate()"/>
+						</br>
+				</div><!--end of tbl-->
+					</form>	
+			</div><!--end of register-->
+		</div><!--end of wrapper-->
+	</body>
+</html>

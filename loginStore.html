@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="login.css"/>
+		<script type="text/javascript">
+			function check()
+			{
+				var name=document.getElementById('uname').value;
+				var pswd=document.getElementById('upswd').value;
+				if(name=="" && pswd=="")
+				{
+					alert("Fill the entries!!1");
+					return false;
+				}
+				else if(name=="")
+				{			
+					alert("Enter name!!");
+					return false;
+				}
+				else if(pswd=="")
+				{
+					alert("Enter password!!");
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="nav">
+				<div id="h">
+					<a href="home.html">Home</a>
+				</div><!--end of h-->
+				<div id="s">
+					<a href="register.html">Register</a>
+				</div><!--end of s-->
+				<br clear="all"/>
+			</div><!--end of nav-->
+			<div id="login">
+					<p>Log in</p>
+				<div id="log">
+					
+					<div class="l">
+						<td>Username:</td>
+						<input type="text" id="uname" name="user"/>
+					</div><!--end of user-->
+					<div class="l">
+						<td>Password:</td>
+						<input type="password" id="upswd" name="password"/>
+						</br>
+						
+					</div><!--end of pswd-->
+					<a href="help.html">Forgot Password?</a>
+					</br>
+					
+					<hr color="grey">
+					<button onclick="return check()">Log in</button>
+				</div><!--end of log-->
+				</br>
+				
+			</div><!--end of login-->
+			<div id="f">
+				</br>
+				@copyright since 2000
+			</div><!--end of footer-->
+		</div><!--end of wrapper-->
+	</body>
+<html>

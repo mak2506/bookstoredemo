@@ -1,0 +1,180 @@
+<html>
+	<head>
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="r.css"/>
+		<script type="text/javascript">
+			function validate()
+			{
+				var fname=document.getElementById('Ufname').value;
+				var lname=document.getElementById('Ulname').value;
+				var pswd=document.getElementById('Upswd').value;
+				var pass=document.getElementById('cpswd').value;
+				var email=document.getElementById('Uemail').value;
+				var contact=document.getElementById('Ucontact').value;
+				if(fname=="" && lname=="" && pswd=="" && pass=="" && email=="" && contact=="")
+				{
+					alert("Fill the entries!!!");
+					return false;
+				}
+				else is(fname=="")
+				{
+					alert("Enter first name!!");
+					return false;
+				}
+				else if(lname=="")
+				{		
+					alert("Enter your last name!!");
+					return false;
+				}
+				else if(pswd=="")
+				{
+					alert("Enter password!!");
+					return false;
+				}
+				else if(pass=="")
+				{		
+					alert("Confirm your password!!");
+					return false;
+				}		
+				else if(email=="")
+				{
+					alert("Enter email!!");
+					return false;
+				}
+				else if(contact=="")
+				{
+					alert("Enter your contact number!!');
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+				<div id="header">
+						<div id="s1">
+							<a href="home.html">Home</a>
+						</div><!--end of s1-->
+						<div id="s2">
+							<a href="loginStore.html">Login</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="help.html">Help</a>	
+						</div><!--end of s2-->
+						
+						<div id="s3">
+							<p>Registeration Page</p>	
+						</div><!--end of s3-->
+						<br clear="all"/>
+				</div><!--end of header-->
+				<div id="page">
+					
+					<div id="tbl">
+						<form>
+						</br>
+						<table>
+							<tr>
+								<td>First name:</td>
+								<td><input type="text" id="Ufname" name="usrName" /></td>
+							</tr>
+							<tr>
+								<td>Last name:</td>
+								<td><input type="text" id="Ulname" name="usrName" /></td>
+							</tr>
+							<tr>
+								<td>Password:</td>
+								<td><input type="password" id="Upswd" name="usrPswd" /></td>
+							</tr>
+							<tr>
+								<td>Confirm Password:</td>
+								<td><input type="password" id="cpswd" name="usrPswd" /></td>
+							</tr>
+							<tr>
+								<td>Email:</td>
+								<td><input type="text" id="Uemail" name="uEmail"/></td>
+							</tr>
+							<tr>
+								<td colspan="2">Date of Birth:</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+								<select name="ddl">
+									<option>Date</option>
+									<option>01</option>
+									<option>02</option>
+									<option>03</option>
+									<option>04</option>
+									<option>05</option>
+									<option>06</option>
+									<option>07</option>
+									<option>08</option>
+									<option>09</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+									<option>13</option>
+									<option>14</option>
+									<option>15</option>
+									<option>16</option>
+									<option>17</option>
+									<option>18</option>
+									<option>19</option>
+									<option>20</option>
+									<option>21</option>
+									<option>22</option>
+									<option>23</option>
+									<option>24</option>
+									<option>25</option>
+									<option>26</option>
+									<option>27</option>
+									<option>28</option>
+									<option>29</option>
+									<option>30</option>
+									<option>31</option>
+								</select>
+								<select name="ddl">
+									<option>Month</option>
+									<option>January</option>
+									<option>Febraury</option>
+									<option>March</option>
+									<option>April</option>
+									<option>May</option>
+									<option>June</option>
+									<option>July</option>
+									<option>August</option>
+									<option>September</option>
+									<option>October</option>
+									<option>November</option>
+									<option>December</option>
+								</select>
+								Year:<input type="text" name="year"/>
+								</td>
+							</tr>
+							<tr>
+								<td>Contact:</td>
+								<td><input type="text" id="Ucontact" name="uContact"/></td>
+							</tr>
+							<tr>
+								<td>Gender:</td>
+								<td><input type="radio" name="gender" value="female"/>Female<input type="radio" name="gender" value="male"/>Male</td>
+			</tr>
+							<tr>
+							<td colspan="2"><input type="checkbox" name="agree" value="agree"/>&nbsp;&nbsp;&nbsp;&nbsp;I agree to the terms & conditions</td>
+						
+						</tr>
+						
+						</table>
+						</br>
+						<input type="button" name="btnSubmit" value="Register" onclick="return validate()"/>
+						</br>
+						</form>
+					</div><!--end of tbl-->
+					
+				</div><!--end of page-->
+				<div id="footer">
+					@copyright 2000..
+				</div><!--end of footer-->
+		</div><!--end of wrapper-->
+	</body>
+</html>

@@ -1,0 +1,154 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-image:url("books/bg3.jpg");
+	background-size:cover;
+}
+
+#wrapper
+{
+	width:980px;
+	border:2pt solid #7E3817;
+	margin:auto;
+}
+
+#nav
+{
+	width:978px;
+	border:1pt solid #7E3817;
+	margin:1px;
+	background:radial-gradient(#9DC209,#3EA055);
+}
+
+#h
+{
+	width:200px;
+	margin:5px;
+	text-align:center;
+	float:left;
+	
+}
+#h a
+{
+	font-family:castellar;
+	font-size:30;
+	color:white;
+	text-decoration:none;
+	text-shadow:3px 4px 5px black;
+}
+#h a:active
+{
+	color:#B6B6B4;
+}
+
+#s 
+{
+	width:200px;
+	
+	margin:5px;
+	float:right;
+	text-align:center;
+}
+#s a
+{
+	color:black;
+	font-size:20;
+	font-weight:bold;
+	line-height:40px;
+	font-family:calibri;
+	text-decoration:none;	
+}
+
+#login
+{
+	width:975px;
+	border:1pt solid white;
+	margin:2px;
+	padding-bottom:100px;
+	background:#835C38;
+	opacity:0.9;
+	
+}
+#login p
+{
+	color:#FFF8DC;	
+	font-size:50;
+	font-family:georgia;
+	font-weight:bold;
+	text-align:center;
+	padding:50px;
+	
+}
+#log
+{
+	width:600px;
+	border:1pt solid white;
+	margin-left:180px;
+	font-weight:bold;
+	font-size:20;
+	text-align:left;
+	text-shadow:2px 3px 4px black;	
+	padding:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:white;
+	opacity:1;
+	border-radius:10px;
+}
+
+#log button
+{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:140px;
+	padding-right:140px;
+	margin:20px;
+	margin-left:160px;
+	background:radial-gradient(white,#E5E4E2);
+	border-radius:10px;
+}
+#log button:active
+{
+	box-shadow:4px 5px 3px grey;
+}
+
+.l
+{
+	 margin: 5%;
+
+  	font-weight: bold;
+  	color: black;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
+.l input
+{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:10px;
+	font-size:30;
+	background:radial-gradient(white,#625D5D);
+	opacity:0.9;
+}
+#log a
+{
+	color:black;
+	font-size:15;
+	text-align:left;
+}
+
+#f
+{
+	width:978px;
+	border:1pt solid black;
+	margin:1px;
+	padding-top:15px;
+	background:radial-gradient(#9DC209,#3EA055);
+}
